@@ -19,7 +19,7 @@ Parameters:
 
 - `--server`: GitLab server URL. Default: `https://gitlab.com`
 - `--token`: Your GitLab personal access token
-- `--project`: Project ID or path.
+- `--project_id`: Project ID or path.
 - `--per-page`: Number of jobs to fetch per page. Default: `100`
 - `--page`: Page number. Default: `1`
 
