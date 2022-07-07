@@ -24,7 +24,7 @@ Parameters:
 - `--page`: Page number. Default: `1`
 
 ```bash
-artifacts-cleaner --server https://gitlab.com --token <token> --project_id <project_id> --pages 10 --per_page 100
+gitlab-artifacts-cleaner --server https://gitlab.com --token <token> --project_id <project_id> --pages 10 --per_page 100
 ```
 
 This is a work in progress. If you have any suggestions, please open an issue.
