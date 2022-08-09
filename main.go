@@ -49,11 +49,9 @@ func main () {
 			fmt.Println(err)
 			return
 		}
-		for _, job := range jobs {
-			fmt.Println("job processed:", job.ID)
-		}
 
 		for _, job := range jobs {
+			fmt.Println("job to process:", job.ID)
 			url := fmt.Sprintf("%v/api/v4/projects/%v/jobs/%d/artifacts", server, project_id, job.ID)
 			req, err := http.NewRequest("DELETE", url, nil)
 			if err != nil {
